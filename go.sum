@@ -68,6 +68,8 @@ github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ3
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/deployKF/knative-pkg v0.0.0-20241017230044-3db6060cea05 h1:lKPkJxVmxhvhnfZRdCBL+MuX7Ca/vP3XNHG/A1kG5N4=
+github.com/deployKF/knative-pkg v0.0.0-20241017230044-3db6060cea05/go.mod h1:NYk8mMYoLkO7CQWnNkti4YGGnvLxN6MIDbUvtgeo0C0=
 github.com/emicklei/go-restful/v3 v3.9.0 h1:XwGDlfxEnQZzuopoqxwSEllNcCOM9DhhFyhFIIGKwxE=
 github.com/emicklei/go-restful/v3 v3.9.0/go.mod h1:6n3XBCmQQb25CM2LCACGz8ukIrRry+4bhvbpWn3mrbc=
 github.com/envoyproxy/go-control-plane v0.9.0/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
@@ -691,8 +693,6 @@ knative.dev/hack v0.0.0-20240123162936-f3f03ac0ab1a h1:+4Mdk0Lt3LGAVEI6vYyhfjBlV
 knative.dev/hack v0.0.0-20240123162936-f3f03ac0ab1a/go.mod h1:yk2OjGDsbEnQjfxdm0/HJKS2WqTLEFg/N6nUs6Rqx3Q=
 knative.dev/networking v0.0.0-20240116081125-ce0738abf051 h1:bTRVfwmfu4/7U1YBcgBl1VANAwmal6zkoAI9p7PQwDY=
 knative.dev/networking v0.0.0-20240116081125-ce0738abf051/go.mod h1:rdzGL1OVP6VItEiJUN/FTCrDnIzkA6ykhSvaK+0Ne6o=
-knative.dev/pkg v0.0.0-20240116073220-b488e7be5902 h1:H6+JJN23fhwYWCHY1339sY6uhIyoUwDy1a8dN233fdk=
-knative.dev/pkg v0.0.0-20240116073220-b488e7be5902/go.mod h1:NYk8mMYoLkO7CQWnNkti4YGGnvLxN6MIDbUvtgeo0C0=
 rsc.io/binaryregexp v0.2.0/go.mod h1:qTv7/COck+e2FymRvadv62gMdZztPaShugOCi3I+8D8=
 rsc.io/quote/v3 v3.1.0/go.mod h1:yEA65RcK8LyAZtP9Kv3t0HmxON59tX3rD+tICJqUlj0=
 rsc.io/sampler v1.3.0/go.mod h1:T1hPZKmBbMNahiBKFy5HrXp6adAjACjK9JXDnKaTXpA=

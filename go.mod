@@ -2,6 +2,15 @@ module knative.dev/net-istio
 
 go 1.18
 
+// note, we have forked `knative/pkg` to apply some changes:
+//  - https://github.com/deployKF/knative-pkg/tree/fork-1.13
+//
+// to get the pseudo-version of the fork, run:
+//  - go get github.com/deployKF/knative-pkg@fork-1.13
+//
+// remember to run `./hack/update-deps.sh` when updating the version
+replace knative.dev/pkg => github.com/deployKF/knative-pkg v0.0.0-20241017230044-3db6060cea05
+
 require (
 	github.com/google/go-cmp v0.6.0
 	go.uber.org/zap v1.26.0
@@ -14,7 +23,7 @@ require (
 	k8s.io/client-go v0.28.5
 	knative.dev/hack v0.0.0-20240123162936-f3f03ac0ab1a
 	knative.dev/networking v0.0.0-20240116081125-ce0738abf051
-	knative.dev/pkg v0.0.0-20240116073220-b488e7be5902
+	knative.dev/pkg v0.0.0
 )
 
 require (
